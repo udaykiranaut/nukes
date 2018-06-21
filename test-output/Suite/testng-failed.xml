@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="FireFox_Test_cases(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="crossBrowser.verifyTitle">
+        <methods>
+          <include name="verifyPageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossBrowser.verifyTitle -->
+    </classes>
+  </test> <!-- FireFox_Test_cases(failed) -->
+  <test thread-count="5" name="Chrome_Test_Cases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="crossBrowser.verifyTitle">
+        <methods>
+          <include name="verifyPageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossBrowser.verifyTitle -->
+    </classes>
+  </test> <!-- Chrome_Test_Cases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

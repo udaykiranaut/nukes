@@ -1,0 +1,4 @@
+ChromeDriver=E:\\01 for testing\\selenium web drivers\\chromedriver.exe
+IEDriver=E:\\01 for testing\\selenium web drivers\\Ie driver 32\\IEDriverServer32.exe
+URL=http://learn-automation.com/
+ExcelPath=E:\\01 for testing\\selinium mukesh\\ExcelData\\WordPressData.xlsx

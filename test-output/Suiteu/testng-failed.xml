@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suiteu]">
+  <listeners>
+    <listener class-name="listenerDemo.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Testu(failed)">
+    <classes>
+      <class name="listenerDemo.TestCaseSuitLevel">
+        <methods>
+          <include name="titleMatch"/>
+        </methods>
+      </class> <!-- listenerDemo.TestCaseSuitLevel -->
+    </classes>
+  </test> <!-- Testu(failed) -->
+</suite> <!-- Failed suite [Suiteu] -->
